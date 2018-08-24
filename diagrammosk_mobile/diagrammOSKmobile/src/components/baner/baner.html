@@ -1,0 +1,9 @@
+<!-- Generated template for the BanerComponent component -->
+<div class="areaPlan" *ngFor="let interval of intervals; let i = index;" [style.left]="interval.banerLeft" [style.width]="interval.duration">
+  <div class="areaPlan left"></div>
+  <div class="areaPlan right"></div>
+</div>
+<div class="areaFact" *ngFor="let realInterval of realIntervals; let i = index" [style.left]="realInterval.banerLeft" [style.width]="realInterval.duration"></div>
+<!-- <div *ngIf="fullBaner" style="position: absolute; background-color: gray; left: 50%; top: 0; width: 40%; height: 40%;"> 
+  <span>{{producer}}</span>
+</div> -->

@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "911801453380",
+    "firebase_url": "https://repairs-diagramm.firebaseio.com",
+    "project_id": "repairs-diagramm",
+    "storage_bucket": "repairs-diagramm.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:911801453380:android:41be478ea6183ba3",
+        "android_client_info": {
+          "package_name": "ru.usc.diagrammosk"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "911801453380-v9h6dk5nbghba6kssma5lmk4hbcgqa78.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCdLpdtQvreKX0XVb_d4CAiI81cpXtdQMc"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

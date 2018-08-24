@@ -1,0 +1,9 @@
+<!-- Generated template for the FullBanerComponent component -->
+
+
+<div style="border-radius: 10px; pointer-events: all; background-color: white; position: absolute; width: 50vw; height: 25vh; top: 0; left: 0; bottom: 0; right: 0; margin: auto;">
+  {{costs}} .р
+  <div>
+    <ion-checkbox *ngIf="isRoot" (ionChange)="changeState()" [(ngModel)]="subscribed"></ion-checkbox>
+  </div>
+</div>

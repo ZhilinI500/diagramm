@@ -1,0 +1,7 @@
+{
+  "name": "diagrammOSKmobile",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "ionic-angular"
+}

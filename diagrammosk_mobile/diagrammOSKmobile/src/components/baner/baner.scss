@@ -1,0 +1,31 @@
+baner {
+    .areaPlan {
+        bottom: 50%; 
+        border-color: grey;
+        border-style: solid; 
+        height: 0; 
+        position: absolute; 
+        z-index: 16;
+        border-width: 2px;
+        border-left-width: 0;
+        .left{
+            height: 6vh;
+            left: 0px;
+            bottom: -3vh;
+            border-width: 2px;
+        }
+        .right{
+            height: 6vh;
+            left: 100%;
+            bottom: -3vh;
+            border-width: 2px;
+        }
+    }
+
+    .areaFact{
+        position: absolute;
+        height: 6vh;
+        background-color: rgb(208, 224, 240);
+        border-radius: 6px;
+    }
+}

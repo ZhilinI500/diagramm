@@ -1,0 +1,19 @@
+<!-- Generated template for the PlaceComponent component -->
+<div *ngFor="let next of _data; let i = index" class="placeInner">
+  <table>
+    <td [style.position]="plateConfig[i].position" style="width: 5vw; background-color: rgb(221, 221, 221); z-index: 20;">
+      <button style="height: 7vh;" [style.min-width]="btnWidth[i]" [style.max-width]="maxWidth[i]" (click)="changeState(i)" *ngIf="next.data">
+        {{plateConfig[i].label}}
+        <span style="width: 100%;" *ngIf="!plateConfig[i].extended">{{next.value}}</span>
+      </button>
+    </td>
+    <td *ngIf="next.data && plateConfig[i].extended">
+      <place [data]="next.data" [treeLvl]="_treeLvl + 1"></place>
+    </td>
+    <td *ngIf="!plateConfig[i].extended">
+      <div (click)="openFull(i)" *ngIf="!plateConfig[i].extended" class="banerWrapper">
+        <baner [path]="next.id" [style.left]="left"></baner>
+      </div>
+    </td>
+  </table>
+</div>
